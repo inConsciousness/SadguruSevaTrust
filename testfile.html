@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadguru Seva Trust</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .glitter-text {
+            color: gold;
+            font-size: 24px;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+        }
+        .scrolling-text {
+            background: #000;
+            color: gold;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .split-container {
+            display: flex;
+            height: calc(100vh - 100px); /* Adjust height based on header and footer */
+        }
+        .left-half, .right-half {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .left-half {
+            border-right: 5px solid gold; /* Vertical divider */
+        }
+        .carousel {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+        }
+        .carousel-slide {
+            min-width: 300px;
+            border: 2px solid gold;
+        }
+        .carousel-slide iframe {
+            width: 100%;
+            height: 200px;
+        }
+        .carousel-caption {
+            text-align: center;
+            font-weight: bold;
+            background: gold;
+            color: black;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="glitter-text">Sadguru Seva Trust</h1>
+        <h2 class="glitter-text">Temple of Lord Ayyappa</h2>
+    </header>
+    <div class="scrolling-text">
+        <marquee behavior="scroll" direction="left">
+            <span class="glitter-text">ॐ Swamiye Saranam Ayyappa | ॐ स्वामीये शरणम् अय्यप्पा | ఓం స్వామియే శరణం అయ్యప్ప | ஓம் சுவாமியே சரணம் ஐயப்பா | ಓಂ ಸ್ವಾಮಿಯೆ ಶರಣಂ ಅಯ್ಯಪ್ಪ | ഓം സ്വാമിയെ ശരണം അയ്യപ്പ</span>
+        </marquee>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#temple">Temple Area</a></li>
+            <li><a href="#orphanage">Orphanage</a></li>
+            <li><a href="#seva">Seva Activities</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="split-container">
+            <div class="left-half">
+                <section id="temple">
+                    <h2 class="glitter-text">Astadasha Sasta Temple</h2>
+                    <p><strong>Specialties:</strong></p>
+                    <ul>
+                        <li>Temple of 18 avatars of Ayyappa</li>
+                        <li>First temple in India with Sannidi for 27 Nakshatras</li>
+                    </ul>
+                    <div class="carousel">
+                        <div class="carousel-slide">
+                            <iframe src="https://maps.app.goo.gl/U8zijmRcHcq6YS6r6" allowfullscreen="" loading="lazy"></iframe>
+                            <div class="carousel-caption">Temple Area Map</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <iframe src="temple_main_entrance.jpg" allowfullscreen=""></iframe>
+                            <div class="carousel-caption">Temple Main Entrance</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <iframe src="sankhu_staphana.jpg" allowfullscreen=""></iframe>
+                            <div class="carousel-caption">Sankhu Staphana</div>
+                        </div>
+                    </div>
+                    <div class="temple-nakshatras">
+                        <h3 class="glitter-text">Ayyappa Temple</h3>
+                        <p>The Temple of Lord Ayyappa is a sacred place of worship. It is known for its spiritual ambiance and beautiful architecture. The temple also features the Asta Dasha incarnations of Lord Ayyappa.</p>
+                        <h3 class="glitter-text">27 Nakshatras</h3>
+                        <p>The Sanctum of 27 Nakshatras represents the lunar mansions in Hindu astrology. Each Nakshatra is associated with specific characteristics and influences. This sanctum is a place for spiritual connection and astrological significance.</p>
+                    </div>
+                </section>
+            </div>
+            <div class="right-half">
+                <section id="about">
+                    <h2 class="glitter-text">What is Sadguru Seva Charitable Trust?</h2>
+                    <p>The Sadguru Seva Charitable Trust is dedicated to providing support and care in various sectors including education, social welfare, and empowerment. Our mission is to make a positive impact through a range of activities.</p>
+                    <div class="carousel">
+                        <div class="carousel-slide">
+                            <iframe src="about1.jpg" allowfullscreen=""></iframe>
+                            <div class="carousel-caption">About Us Image 1</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <iframe src="about2.jpg" allowfullscreen=""></iframe>
+                            <div class="carousel-caption">About Us Image 2</div>
+                        </div>
+                    </div>
+                </section>
+                <section id="orphanage">
+                    <h2 class="glitter-text">Orphanage</h2>
+                    <p>Our orphanage provides a safe and nurturing environment for children in need. We focus on their education, health, and overall well-being to ensure a brighter future.</p>
+                </section>
+                <section id="old-age-home">
+                    <h2 class="glitter-text">Old Age Home</h2>
+                    <p>Our old age home offers comfort and care to elderly individuals. We provide various services to enhance their quality of life and ensure they feel valued and respected.</p>
+                </section>
+                <section id="social-welfare">
+                    <h2 class="glitter-text">Social Welfare Activities</h2>
+                    <p>We are involved in numerous social welfare activities including community outreach, disaster relief, and support for marginalized groups.</p>
+                </section>
+                <section id="education">
+                    <h2 class="glitter-text">Education</h2>
+                    <p>Our educational programs aim to provide quality learning opportunities for underprivileged children and adults, fostering growth and development.</p>
+                </section>
+                <section id="women-empowerment">
+                    <h2 class="glitter-text">Women Empowerment</h2>
+                    <p>We promote women's rights and provide support through various initiatives designed to empower women and girls in our community.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sadguru Seva Trust. All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+            });
+        });
+    </script>
+</body>
+</html>
